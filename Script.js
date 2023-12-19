@@ -341,11 +341,5 @@
 
 
 
-//Web Api Rules:
-function printHello(){
-  console.log('Hello')
-}
-setTimeout(printHello, 1000)
 
-console.log("my First")
   
