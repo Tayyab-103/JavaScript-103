@@ -29,9 +29,10 @@ setTimeout(printHello, 2000);
 
 const futureData = fetch(
   "https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8"
-)
-.then((response) => response.json())
-futureData.then(display)
-// .then((data) => display(data));  
+).then((response) => response.json());
+futureData.then(display);
+// .then((data) => display(data));
 blockFor300ms();
 console.log("Me First");
+
+
