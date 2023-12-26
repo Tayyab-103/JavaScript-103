@@ -81,17 +81,19 @@ console.log(multiplyBy2.stored);
 console.log(multiplyBy2.prototype);
 
 // // New Kewword
-// function moreUserCreator(name, score) {
-//   this.name = name;
-//   this.score = score;
-// }
+class moreUserCreator {
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+  }
+  increment() {
+    this.score++;
+  }
+  login() {
+    console.log("login");
+  }
+}
 
-// moreUserCreator.prototype.increment = function () {
-//   this.score++;
-// };
-// moreUserCreator.prototype.login = function () {
-//   console.log("login");
-// };
 
-// const user7 = new moreUserCreator("Eva", 9);
-// console.log(user7)
+const user7 = new moreUserCreator("Eva", 9);
+console.log(user7)
