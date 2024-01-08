@@ -18,21 +18,19 @@
 
 // console.log("My First")
 
-function display(data) {
-  console.log(data);
-}
-function printHello() {
-  console.log("Hello");
-}
-function blockFor300ms() {}
-setTimeout(printHello, 2000);
+// function display(data) {
+//   console.log(data);
+// }
+// function printHello() {
+//   console.log("Hello");
+// }
+// function blockFor300ms() {}
+// setTimeout(printHello, 2000);
 
-const futureData = fetch(
-  "https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8"
-).then((response) => response.json());
-futureData.then(display);
-// .then((data) => display(data));
-blockFor300ms();
-console.log("Me First");
-
-
+// const futureData = fetch(
+//   "https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8"
+// ).then((response) => response.json());
+// futureData.then(display);
+// // .then((data) => display(data));
+// blockFor300ms();
+// console.log("Me First");
