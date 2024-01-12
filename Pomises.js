@@ -61,16 +61,16 @@
 // brokenRecord();
 
 
-function brokenRecord(){
-    const intervalId = setInterval(()=>{
-        console.log("hi again")
-    },1000)
+// function brokenRecord(){
+//     const intervalId = setInterval(()=>{
+//         console.log("hi again")
+//     },1000)
     
-    setTimeout(() => {
-        clearInterval(intervalId);
-        console.log("stopped the brokenRecord function")
-    }, 5000);
-}
-brokenRecord()
+//     setTimeout(() => {
+//         clearInterval(intervalId);
+//         console.log("stopped the brokenRecord function")
+//     }, 5000);
+// }
+// brokenRecord()
 
 
