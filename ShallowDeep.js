@@ -24,3 +24,6 @@ function deepCopy(obj) {
   console.log(originalObject);        // { a: 1, b: { c: 2, d: [99, 4] } }
   console.log(deepCopyObject);        // { a: 1, b: { c: 2, d: [3, 4] } }
   
+
+  const Array = ["tayyab", "Imran" , "Kamran"];
+  console.log(Array)
