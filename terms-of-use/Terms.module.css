@@ -1,0 +1,28 @@
+.terms {
+  background-image: url(../../__webAssets/pngs/bg-blog.png);
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  object-fit: cover;
+}
+.url:hover{
+  color: #E1683B;
+}
+.url{
+  font-family: Avenir8;
+}
+@media screen and (max-width:899px) {
+  .terms {
+    background-size: 100% 150px;
+    
+  }
+
+}
+
+
+@media screen and (max-width:899px) {
+  .terms {
+    background-size: 100% 120px;
+  }
+
+}
+
