@@ -1,0 +1,187 @@
+.logo {
+  width: 285px !important;
+  height: 40px !important;
+  margin-bottom: 10px;
+}
+
+.underLine {
+  background-image: url('../../__webAssets/svgs/under-line.svg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 67px 50%;
+  animation: slideIn 1s ease-in-out infinite alternate;
+}
+
+.menu{
+  display: none;
+}
+
+.hoverLinks:hover{
+  color: #E1683B;
+}
+
+.selector{
+  font-size:18px;
+  font-family: Avenir5;
+  box-sizing: border-box;
+  width: 70px;
+  
+  border-radius: 2px;
+  text-align: left;
+  background-color: #FBFBFB;
+  color:#E1683B ;
+  border:1px solid #E1683B ;
+ 
+}
+
+.selector:hover{
+  background-color: #edeaea;
+}
+
+.downAero{
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.option{
+  margin: 0;
+  background-color: #fff;
+  width: 170px;
+  padding: 10px 0 10px 70px;
+  color: #06152B;
+  height: 60px;
+  font-size: 16px;
+  font-family: Avenir ;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.optiontop{
+  margin-top: 15px;
+}
+
+.option:hover{
+  background-color: #fcf0eb ; 
+}
+
+.optionsBg{
+  background-color: #fcf0eb ; 
+}
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+
+@media screen and (max-width: 1200px) and  (min-width: 900px) {
+  .logo {
+    width: 210px !important;
+    height: auto !important;
+  }
+
+  .underLine {
+    background-size: 45px 50%;
+  }
+  
+}
+ 
+@media screen and (max-width: 1000px) {
+  .langBtn{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .logo {
+    width: 150px !important;
+    height: 25px !important;
+  }
+  
+  .underLine {
+    animation: none;
+  }
+
+  .menu{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    cursor: pointer;
+  }
+
+  .menuItems{
+    font-size: 30px !important;
+    width: 100vw;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 30px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .menuItems *>{
+    margin-top: 30px;
+  }
+
+  .hide{
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 130px !important;
+    height: 20px !important;
+  }
+
+
+  .menu{
+    width: 18px;
+    height: 16px;
+    right: 16px;
+  }
+}
+
+.google select{
+  background-color: #FAFAFA;
+  color: #E1683B;
+  width: 130px;
+  height: 40px;
+  border-radius: 2px;
+  border-color: #E1683B;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+.google img{
+  display: none;
+}
+
+.google span{
+  display: none;
+}
+
+.google div{ 
+color: #f3ecda;
+margin: 0;
+padding-bottom: 2px;
+}
