@@ -1,0 +1,41 @@
+.CardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.subContainer {
+  background-image: url(../_assets/png/dashboard-bg.png);
+  background-repeat: no-repeat;
+  position: right;
+  background-size: cover;
+}
+
+@media (max-width: 1400px) {
+  .CardsContainer {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+}
+@media (max-width: 1200px) {
+  .CardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .CardsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .CardsContainer {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 20px;
+  }
+}
