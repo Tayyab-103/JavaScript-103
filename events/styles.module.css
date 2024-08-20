@@ -1,0 +1,26 @@
+.overflowQuestionText {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  max-height: 72px;
+  /* max-width: 350px; */
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.overflowQuestionText::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .overflowQuestionText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .overflowQuestionText {
+    font-size: 14px;
+  }
+}
