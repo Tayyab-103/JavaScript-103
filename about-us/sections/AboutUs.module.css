@@ -1,0 +1,49 @@
+/* Our Story  */
+
+.storyImage {
+  width: 550px;
+  height: 720px;
+}
+
+/* Our Values  */
+.valuesBox {
+  background-image: url(../../../__webAssets/pngs/bg-gift-tag.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.pureHeadings{
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  display: inherit;
+}
+
+@media screen and (min-width: 899px) and (max-width: 1200px) {
+
+  .storyImage {
+    width:auto;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .storyImage {
+    width:auto;
+    height: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .storyImage {
+    width:100%;
+    height: auto;
+  }
+
+  /* Our Values  */
+  .valuesBox {
+  background-size: 220px 115px;
+  }
+
+}
