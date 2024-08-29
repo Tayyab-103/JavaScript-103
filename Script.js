@@ -367,3 +367,14 @@ function findLUSlength(a, b) {
     return Math.max(a.length, b.length);
 }
   
+
+const LongestUncommonSubsequence = () => {
+    const [stringA, setStringA] = useState('');
+    const [stringB, setStringB] = useState('');
+    const [result, setResult] = useState(null);
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const lusLength = findLUSlength(stringA, stringB);
+      setResult(lusLength);
+    };
