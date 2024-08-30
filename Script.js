@@ -368,13 +368,28 @@ function findLUSlength(a, b) {
 }
   
 
-const LongestUncommonSubsequence = () => {
-    const [stringA, setStringA] = useState('');
-    const [stringB, setStringB] = useState('');
-    const [result, setResult] = useState(null);
+// const LongestUncommonSubsequence = () => {
+//     const [stringA, setStringA] = useState('');
+//     const [stringB, setStringB] = useState('');
+//     const [result, setResult] = useState(null);
   
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      const lusLength = findLUSlength(stringA, stringB);
-      setResult(lusLength);
-    };
+//     const handleSubmit = (e) => {
+//       e.preventDefault();
+//       const lusLength = findLUSlength(stringA, stringB);
+//       setResult(lusLength);
+//     };
+
+
+
+//these are global variables
+foo = 123;
+var ABC = 'school';
+
+//these are "private" variables
+test = function(){
+  var foo = 123
+}
+
+(function(){
+  var ABC = 'school';
+}).call(this);
