@@ -393,3 +393,25 @@ test = function(){
 (function(){
   var ABC = 'school';
 }).call(this);
+
+6
+
+var SomeName = function() {
+
+    var function1 = function (number) {
+        return number+1;
+    }
+
+    var anotherFunction = function (number) {
+        return number+2;
+    }
+
+    return {
+        function1: function (number) {
+            return function1(number);
+        },
+        function2: function (number) {
+            return anotherFunction(number);
+        }
+    }
+}();
